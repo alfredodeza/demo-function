@@ -15,4 +15,4 @@ def main(req: func.HttpRequest, context: func.Context) -> func.HttpResponse:
 @app.route("/")
 def index():
     logging.info("flask app about to do a redirect")
-    return redirect("https://portal.azure.com", code=301)
+    return redirect("https://azure.com", code=301)
